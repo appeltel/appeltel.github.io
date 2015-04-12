@@ -16,6 +16,12 @@
     border-color: black;
 }
 
+.caption {
+    font-size: 0.7em; 
+    margin: 0.3em auto;
+    text-align: center;
+} 
+
 .textbox {
     float:left;
     line-height: 120%;

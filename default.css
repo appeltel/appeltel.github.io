@@ -138,4 +138,8 @@ img {
          left: 0 !important;
          right: 0 !important;
     }
+
+    .mobile-cetnering {
+        margin:0px auto;
+    }
 }

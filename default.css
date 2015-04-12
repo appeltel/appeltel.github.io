@@ -1,11 +1,19 @@
-.plotbox {
+.imgbox-left {
     float:left;
-    margin: 0.2em 0.2em 0.8em 0.2em; 
+    margin: 0.5em; 
     padding: 0em;
-    border-style: ridge;
-    border-size: 0.33em;
-    border-color: rgb(134,190,191);
-    background: white;
+    border-style: solid;
+    border-size: 2px;
+    border-color: black;
+}
+
+.imgbox-right {
+    float:left;
+    margin: 0.5em;
+    padding: 0em;
+    border-style: solid;
+    border-size: 2px;
+    border-color: black;
 }
 
 .textbox {
@@ -109,7 +117,7 @@ img {
 
 
 @media screen and (max-device-width: 50em) {
-    .textbox, .plotbox {
+    .textbox, .imgbox-left, .imgbox-right {
          max-width:100% !important;
          float:none !important;
     }

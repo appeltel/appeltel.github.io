@@ -117,6 +117,10 @@ img {
 
 
 @media screen and (max-device-width: 50em) {
+    body {
+        margin: 0 auto;
+    }
+
     .textbox {  
          max-width:100% !important;
          float:none !important;
@@ -127,7 +131,7 @@ img {
          margin-right: auto !important;
          float:none !important;
          max-width:none !important;
-         display: block !important;
+         display: inline-block !important;
     }
 
     .timestamp, .version {

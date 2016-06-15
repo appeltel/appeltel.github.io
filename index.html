@@ -28,7 +28,7 @@
   </head>
 
   <body>
-
+<!--
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -46,41 +46,118 @@
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
-
-    <div class="container">
+-->
+    <div class="container-fluid">
 
       <div class="site-basic">
         <h1>Eric Appelt</h1>
         <p class="lead">Software, Science, and Stuff</p>
       </div>
 
-    </div><!-- /.container -->
+    </div><!-- /.container-fluid -->
 
-    <div class="container">
+    <div class="container" style="padding: 0px;"><div class="row no-gutter">
+
+      <div class="col-md-4"><div class="about-entry">
+      <h3 style="text-align:center;">About Me</h3>
+      <img src="profile.jpg" class="img-circle pull-left" 
+           style="width: 50%; padding: 1em" alt="My Profile">
       <p>
-      Previously a reasearch physicst employed at
-      <a href="http://www.vanderbilt.edu/">Vanderbilt University</a>
-      pursuing research in heavy ion collisions in collaboration with the
-      <a href="http://cms.web.cern.ch/">Compact Muon Solenoid</a>
-      experiment, I have just begun a new career as a software
-      engineer with <a href="https://cloudant.com/"> Cloudant,
-      an IBM Company</a>
+        Previously a reasearch physicst employed at
+        <a href="http://www.vanderbilt.edu/">Vanderbilt University</a>
+        pursuing research in heavy ion collisions in collaboration with the
+        <a href="http://cms.web.cern.ch/">Compact Muon Solenoid</a>
+        experiment, I have just begun a new career as a software
+        engineer with <a href="https://cloudant.com/"> Cloudant,
+        an IBM Company</a>
       </p>
       <p>
-      working with the cms collaboration has been a fantastic opportunity
-      to combine my interests in computer science, mathematical modeling,
-      and the physics of quarks and gluons while traveling the world as
-      part of an international scientific effort.
+        working with the cms collaboration has been a fantastic opportunity
+        to combine my interests in computer science, mathematical modeling,
+        and the physics of quarks and gluons while traveling the world as
+        part of an international scientific effort.
       </p>
       <p>
-      <!-- I am interested in opportunities in data science and software
-      engineering, particularly using python or C++. --> You may view my
-      resume <a href="resume.html">here</a>.
+        <!-- I am interested in opportunities in data science and software
+        engineering, particularly using python or C++. --> You may view my
+        resume <a href="resume.html">here</a>.
       </p>
-    </div>
+      </div></div>
+
+      <div class="col-md-4"><div class="about-entry">
+      <h3 style="text-align:center;">Computing</h3>
+      <p>
+        Computing has always been a hobby of mine, starting in high school
+        when I spent weekends configuring network services on desktop
+        linux systems while learning C and perl. Since becoming a
+        professional physicist, I have spent several years performing
+        data analysis and stochastic simulations in C++ and python
+        frameworks.
+        </p>
+        <p>
+        My previous day-to-day responsibilities as a research scientist
+        included developing and maintaining
+        data transfer and monitoring tools for the Vanderiblt Tier-2
+        CMS computing facility which is a part of the
+        <a href="http://www.accre.vanderbilt.edu/">Vanderbilt ACCRE facility</a>.
+        </p>
+        <p>
+            <img class="img-responsive center-block"
+                 style="border: 2px solid black;"
+                 src="runtimelog.png" alt="Cluster Performance Plot" />
+            Snapshot of cluster performance using the
+            <a href="https://github.com/appeltel/AutoCMS">AutoCMS</a>
+            monitoring system.
+        </p>
+        <p>
+        Over 1.5 Petabytes of collision data from the CMS experiment
+        at the LHC are housed at this facility using the
+        <a href="http://www.lstore.org/">L-Store</a> logisitcal storage
+        framework developed at Vanderbilt.
+        </p>
+      </div></div>
+
+      <div class="col-md-4"><div class="about-entry">
+      <h3 style="text-align:center;">Physics</h3>
+        <p>
+        From 2009 to 2015, I worked in collaboration with the
+        <a href="http://cms.web.cern.ch/">Compact Muon Solenoid (CMS)</a>
+        experiment at the world's most powerful particle accelerator, the
+        <a href="http://home.web.cern.ch/topics/large-hadron-collider">
+          Large Hadron Collider (LHC)</a>, to study the properties of
+        nuclear matter at extreme temperatures of over a trillion degrees
+        Kelvin. The CMS experiment is a $500 million international
+        detector system with excellent capabilites to precisely determine the
+        momentum of charged particles created in collisions between
+        protons or heavy nuclei.
+        </p>
+        <p>
+          <img class="img-responsive center-block"
+                 style="border: 2px solid black;"
+                 src="HIN12017_Fig4.png" alt="CMS Charged particle RpPb">
+            CMS Collaboration, <i>Eur. Phys. J. C</i> <b>75</b> (2015) 237
+            <a href="http://doi.org/10.1140/epjc/s10052-015-3435-4">doi:10.1140/epjc/s10052-015-3435-4</a>
+        </p>
+        <p>
+        By colliding two heavy nuclei at close to the speed of light,
+        a high temperature bulk system can be created for a very short
+        span of time, in which the protons and neutrons that comprise the
+        nuclei are predicted to undergo a phase transition into a new
+        state of nuclear matter often called a Quark-Gluon Plasma.
+        </p>
+        <p>
+        My recent work has focused on the measurement of charged particles
+        produced in collisions between a single proton and a heavy nucleus,
+        which helps to enhance the understanding of the various effects that
+        modify charged particle production in nucelus-nucleus collisions
+        relative to proton-proton collisions.
+        </p>
+        </div></div>
+
+    </div></div>
 
 
     <!-- Bootstrap core JavaScript

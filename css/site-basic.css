@@ -4,7 +4,8 @@ body {
 .site-basic {
   padding: 40px 15px;
   text-align: center;
-  background-image: url(/images/banner.jpg);
+  color: white;
+  background-image: url(/images/banner2.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;

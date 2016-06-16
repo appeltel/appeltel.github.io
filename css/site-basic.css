@@ -17,15 +17,5 @@ body {
   background-repeat: repeat;
   border: 2px solid rgba(150, 150, 150, 0.8);
   border-radius: 0.5em;
-  margin: 0.25em;
 }
 
-.about-entry-right-border {
-}
-
-.row-eq-height {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
